@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  position: absolute;
+  left: 550px;
+  top: 450px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.15s;
+}
+
+.button1 span:after {
+  content: '\2192';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0s;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition: 0s;
+}
+
+.button1:hover span {
+  padding-right: 35px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  position: absolute;
+  left: 150px;
+  top: 450px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.15s;
+}
+
+.button2 span:after {
+  content: '\2190';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -50px;
+  transition: 0s;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition: 0s;
+}
+
+.button2:hover span {
+  padding-left: 35px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  position: absolute;
+  left: 320px;
+  top: 250px;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.15s;
+}
+
+.button3 span:after {
+  content: '\2191';
+  position: absolute;
+  opacity: 0;
+  top: -10px;
+  right: -10px;
+  left: -10px;
+  transition: 0s;
+}
+
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition: 0s;
+}
+
+.button3:hover span {
+  padding-top: 20px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  position: absolute;
+  left: 320px;
+  top: 650px;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.15s;
+}
+
+.button4 span:after {
+  content: '\2193';
+  position: absolute;
+  opacity: 0;
+  bottom: -10px;
+  right: -10px;
+  left: -10px;
+  transition: 0s;
+}
+
+.button4:hover {
+  background-color: #4CAF50;
+  color: white;
+  transition: 0s;
+}
+
+.button4:hover span {
+  padding-bottom: 20px;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #FF0000;
+  position: absolute;
+  left: 350px;
+  top: 450px;
+}
+
+.button5 span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.15s;
+}
+
+.button5:hover {
+  background-color: #FF0000;
+  color: white;
+  transition: 0s;
+}
+
+div.relative {
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<title>Control Panel</title>
+<div class="relative" style="color:#20B2AA; font-size:45px">Use the arrows to control your robot.</div>
+
+
+<button class="button button1" style="vertical-align:middle"><span>Right</span></button>
+<button class="button button2" style="vertical-align:middle"><span>Left</span></button>
+<button class="button button3" style="vertical-align:middle"><span>Forward</span></button>
+<button class="button button4" style="vertical-align:middle"><span>Backward</span></button>
+<button class="button button5" style="vertical-align:middle"><span>Stop</span></button>
+<img src="https://media2.giphy.com/media/3o72F1FXi8MxXbyIjS/200w.webp?cid=ecf05e47d7c63bb8837153481502d5782b972aa472b21d7c&rid=200w.webp" alt="Robot"
+ width="250" height="350" style="vertical-align:bottom;margin:-5px 850px">
+</body>
+</html>
